@@ -6,9 +6,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    direction: ltr;
-}
 body{
     background-color: #E5E5E5;
     font-family: "popnes";
@@ -75,15 +72,24 @@ main{
     display: flex;
     flex-direction: row;
 }
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 992px;
+    margin: auto;
+}
 .player-container{
     margin: 0 auto;
-    width: 152px;
+    width: 206px;
     height:154px;
     background-color: #FFFFFF;
     border-radius: 14px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    margin-right: 42px;
+    margin-bottom: 10px;
+    justify-content: center;
+    margin-top: 42px;
 }
 .player-container .image-player {
     width: 68px;
@@ -111,6 +117,7 @@ main{
 }
 .player-container span.name  {
     margin-top: 5px;
+    font-size: 16px;
 }
 
 
