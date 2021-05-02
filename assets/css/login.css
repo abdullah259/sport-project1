@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "popnes";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    direction: ltr;
+}
+body{
+    background-color: #E5E5E5;
+    font-family: "popnes";
+    font-style: normal !important;
+    font-weight: 500 !important;
+}
+.header-container {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.nav-link img {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    
+}
+.nav-link span {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 53px;
+}
+span.nav-link {
+    background-color: white;
+    border-radius: 10px;
+    width: 124px;
+    height: 50px;
+    box-shadow: 0px 21px 40px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    line-height: 33px;
+    font-weight: 600;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 96px;
+}
+.login-container{
+    background-color: red;
+    width: 552px;
+    height: 502px;
+    background: #FFFFFF;
+    box-shadow: 0px 21px 40px rgba(0, 0, 0, 0.06);
+}
+.login-container .btn-login{
+    background-color: blue;
+    width: 101px;
+    height: 40px;
+    margin-top: 41px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: transparent;
+    letter-spacing: 0.04em;
+}
+.login-container form {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin-top: 62px;
+}
+.login-container form .custom-label {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+}
+.login-container form .custom-input{
+    width: 407px;
+    height: 48px;
+    border: 1px solid #D6D6CF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.login-container form .login-button{
+    background-color: #FDD35D;
+    width: 194px;
+    height: 48px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 50px;
+    margin-top: 25px;
+}
